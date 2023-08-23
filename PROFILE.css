@@ -1,0 +1,57 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+h2{
+  border: 5px solid red;
+  border-style: double;
+  margin: auto;
+  text-align: center;
+  width:25%;
+}
+
+marquee{
+  font-weight: 200;
+  background-color: rgb(25, 179, 217);
+  color: black;
+  margin: 2% 0%;
+}
+
+p{
+  text-align: justify;
+}
+p::first-line{
+  color: brown;
+}
+
+#plesant p{
+  text-indent: 5%;
+}
+
+#plesant2 p::first-line{
+  color: aqua;
+
+}
+
+
+img{
+  width: 250px;
+  height: auto;
+  margin: 10px 0px;
+}
+
+#plesant img{
+  float:left;
+  border: solid grey 10px ;
+
+}
+
+#plesant2 img{
+  float:right;
+  border: solid orange 10px;
+}
+
+iframe{
+  width: 100%;
+}
